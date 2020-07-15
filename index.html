@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Basic-->
+        <meta charset="utf-8" />
+        <title>CUBBA - Development</title>
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta name="description" content="CUBBA - Detect potholes with computer vision!">
+        <meta name="keywords" content="potholes, cubba">
+        <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+        <!--Stylesheets-->
+        <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+        <!--Mapbox-->
+        <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js"></script>
+        <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154736507-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-154736507-2');
+        </script>
+        <!--Navbar -->
+        <div class="container">
+            <nav class="navbar header navbar-expand-lg navbar-light">
+              <a class="text-white navbar-brand" href="https://cubba.ml/">CUBBA</a>
+              <span class="navbar-text text-warning" id=center>
+                Lng and Lat
+              </span>
+              <span class="navbar-text text-warning" id=zoom>
+                Zoom
+              </span>
+            </nav>
+        </div>
+
+        <!--Mapbox Main Map-->
+        <div id="map"></div>
+
+        <!--Footer-->
+        <div class="footer">
+            <h5><a class="text-white" href="https://umutyildirim.com">Umut YILDIRIM</a></h5>
+        </div>
+
+        <!-- Jquery and Js Plugins -->
+        <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+    </body>
+</html>
